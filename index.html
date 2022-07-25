@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>pokemundo - Check the Statistics of your Favorite Pokemons in a quick way</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- link css -->
+  <!-- ===----=== -->
+  <!-- script js -->
+  <script src="main.js" defer></script>
+  <script src="https://kit.fontawesome.com/4113668796.js" crossorigin="anonymous"></script>
+  <!-- script js -->
+</head>
+
+<body class="theme_ligth">
+  <!-- POPUP -->
+  <div id="popubBox">
+    <div class="popupContainer">
+      <img src="img/pokemon-secreto3.0.png" alt="<IMG>" class="imgPopup" />
+      <h3 class="namePopup">Pikachu</h3>
+      <p class="typePopup">Typo</p>
+      <div class="tablaDataPokemon">
+        <table id="tabla">
+          <thead>
+            <tr>
+              <th><span>stat</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th><span class="hp-color">hp</span></th>
+              <th><span class="attack-color">attack</span></th>
+              <th><span class="defense-color">defense</span></th>
+              <th><span class="special-attack-color">special-attack</span></th>
+              <th><span class="special-defense-color">special-defense</span></th>
+              <th><span class="speed-color">speed</span></th>
+            </tr>
+            <tr>
+              <td><span class="hp hp-color">78</span></td>
+              <td><span class="attack attack-color">84</span></td>
+              <td><span class="defense defense-color">12</span></td>
+              <td><span class="special-attack special-attack-color">97</span></td>
+              <td><span class="special-defense special-defense-color">67</span></td>
+              <td><span class="speed speed-color">67</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="iconPopup">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+  </div>
+  <!-- POPUP -->
+  <!-- ---------------------------------------------- -->
+  <header id="header">
+    <article class="all_flex">
+      <a class="logo" href="#">PokeMundo</a>
+      <div class="icons">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </div>
+    </article>
+  </header>
+  <!-- ---------------------------------------------- -->
+  <!-- ---------------------------------------------- -->
+  <section id="hero">
+    <span id="marca">SuperationBn Project</span>
+    <article class="all_flex">
+      <div class="text_content">
+        <h1>Poke<span class="poke_color">Mundo</span></h1>
+        <p>check the statistics of your favorite pokemons in a quick way.</p>
+      </div>
+    </article>
+  </section>
+  <!-- ---------------------------------------------- -->
+  <!-- ---------------------------------------------- -->
+  <section id="pokedex_show">
+    <article class="all_flex">
+      <h2 class="subTitle">the pokemons are organized by their respective type, look for the one you want</h2>
+      <div class="menu_pokemon">
+        <div class="selectPokemon">
+          <h3 class="selet">selecciona</h3>
+          <i class="fa-solid fa-caret-down"></i>
+          <!-- <i class="fa-solid fa-caret-up"></i> -->
+          <div class="typesPokemonBox">
+            <div class="typesPokemon">
+              <h3 value="normal">normal</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/4/43/Icon_Normal.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="fighting">fighting</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/4/4c/Icon_Lucha.png" alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="flying">flying</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/d/d3/Icon_Volador.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="poison">poison</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/3/3e/Icon_Veneno.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="ground">ground</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/8/8d/Icon_Tierra.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="rock">rock</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/1/12/Icon_Roca.png" alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="bug">bug</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/7/7e/Icon_Bicho.png" alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="ghost">ghost</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/9/9a/Icon_Fantasma.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="steel">steel</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/b/bc/Icon_Acero.png" alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="fire">fire</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/4/44/Icon_Fuego.png" alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="water">water</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/d/d3/Icon_Agua.png" alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="grass">grass</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/7/7f/Icon_Planta.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="electric">electric</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/3/33/Icon_El%C3%A9ctrico.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="psychic">psychic</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/c/c0/Icon_Ps%C3%ADquico.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="ice">ice</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/2/22/Icon_Hielo.png" alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="dragon">dragon</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/9/96/Icon_Drag%C3%B3n.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="dark">dark</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/a/a4/Icon_Siniestro.png"
+                alt="hola">
+            </div>
+            <div class="typesPokemon">
+              <h3 value="fairy">fairy</h3>
+              <img src="https://static.wikia.nocookie.net/pokemongo_es_gamepedia/images/6/60/Icon_Hada.png" alt="hola">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="listPokemon_container">
+        <div id="listPokemon">
+          <div class="card_Pokemon removeCard">
+            <img src="img/pokebola.png" alt="pokebola" class="pokebola">
+            <img src="img/pokemon-secreto3.0.png" alt="" class="img_pokemon">
+            <h3 class="nombre">????</h3>
+          </div>
+          <div class="card_Pokemon removeCard">
+            <img src="img/pokebola.png" alt="pokebola" class="pokebola">
+            <img src="img/pokemon-secreto3.0.png" alt="" class="img_pokemon">
+            <h3 class="nombre">????</h3>
+          </div>
+          <div class="card_Pokemon removeCard">
+            <img src="img/pokebola.png" alt="pokebola" class="pokebola">
+            <img src="img/pokemon-secreto3.0.png" alt="" class="img_pokemon">
+            <h3 class="nombre">????</h3>
+          </div>
+          <div class="card_Pokemon removeCard">
+            <img src="img/pokebola.png" alt="pokebola" class="pokebola">
+            <img src="img/pokemon-secreto3.0.png" alt="" class="img_pokemon">
+            <h3 class="nombre">????</h3>
+          </div>
+        </div>
+      </div>
+      <!-- ----- -->
+      <!-- ----- -->
+    </article>
+  </section>
+  <!-- ---------------------------------------------- -->
+</body>
+
+</html>
